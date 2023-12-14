@@ -1,0 +1,115 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color:white ;
+font-family: 'Inter', sans-serif;
+}
+.container{
+max-width :1000px;
+background-color: #e5f9f5;
+margin: 0 auto ;
+padding: 20px;
+}
+
+.profile-image{
+
+    width:100px;
+    height:120px;
+    border:3px solid white;
+    border-radius:50% ;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: aqua;
+}
+.header-contact{
+padding: 30px;
+float: right;
+color: black;
+}
+.header-contact a {
+text-decoration: none;
+color:teal;
+font-weight: bold;
+}
+.header-contact a:hover{
+text-decoration: underline;
+color:tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border:solid black 3px ;
+    width: 100%;
+    margin:20px auto ;
+    border-bottom: none;
+}
+.left-div{
+    float: left;
+    width:30%;
+}
+.right-div{
+   float:  right;
+   width: 70%;
+}
+#personal-section{
+
+
+}
+.content{
+
+
+}
+.common-hr{
+    border: solid black 1px;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/*......................
+educational section
+.....................*/
+
+.edu-template-left{
+float: left;
+width: 45%;
+
+}
+
+.edu-template-left{
+    float: right;
+width: 45%;
+}
+/*............
+footer start
+...........*/
+.naeem{
+
+    background-color: black;
+    text-align: center;
+padding: 10px;
+
+
+}
+.naeem a{
+color: white;
+text-decoration: none;
+margin:20px ;
+}
+.naeem p{
+    color: white;
+    
+    margin-top:20px ;
+    }
